@@ -7,9 +7,9 @@ User=mama_bot
 Group=mama_bot
 Password=Werian11
 
-WorkingDirectory=/home/mama_bot/telegazz1/
-Enviroment="PYTHONPATH=/home/mama_bot/telegazz1/"
-ExecStart=/home/mama_bot/telegazz1/.venv/bin/python /home/mama_bot/telegazz1/main.py
+WorkingDirectory=/home/mama_bot/
+Enviroment="PYTHONPATH=/home/mama_bot/"
+ExecStart=/home/mama_bot/telegazz1/.venv/bin/python /home/mama_bot/main.py
 
 [Install]
 WantedBy=multi-user.target
