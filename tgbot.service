@@ -3,13 +3,12 @@ Description=Telegram Bot
 After=network.target
 
 [Service]
-User=mama_bot
-Group=mama_bot
-Password=Werian11
+User=zz1
+Group=zz1
 
-WorkingDirectory=/home/mama_bot/
-Enviroment="PYTHONPATH=/home/mama_bot/"
-ExecStart=/home/mama_bot/.venv/bin/python /home/mama_bot/main.py
+WorkingDirectory=/home/zz1/telegazz1/
+Enviroment="PYTHONPATH=/home/zz1/telegazz1/"
+ExecStart=/home/zz1/telegazz1/.venv/bin/python /home/zz1/telegazz1/main.py
 
 [Install]
 WantedBy=multi-user.target
