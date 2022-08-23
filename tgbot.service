@@ -6,8 +6,8 @@ After=network.target
 User=zz1
 Group=zz1
 
-WorkingDirectory=/home/zz1/zz1/
-Enviroment="PYTHONPATH=/home/zz1/zz1/"
+WorkingDirectory=/home/zz1/telegazz1/
+Enviroment="PYTHONPATH=/home/zz1/telegazz1/"
 ExecStart=/home/zz1/telegazz1/.venv/bin/python /home/zz1/telegazz1/main.py
 
 [Install]
