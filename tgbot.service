@@ -8,7 +8,7 @@ Group=zz1
 
 WorkingDirectory=/home/zz1/zz1/
 Enviroment="PYTHONPATH=/home/zz1/zz1/"
-ExecStart=/home/zz1/zz1/.venv/bin/python /home/zz1/zz1/main.py
+ExecStart=/home/zz1/telegazz1/.venv/bin/python /home/zz1/telegazz1/main.py
 
 [Install]
 WantedBy=multi-user.target
