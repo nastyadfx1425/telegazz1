@@ -712,7 +712,6 @@ async def starter(message: types.Message):
         soln_photo = InputFile('soln.jpg')
         await bot.send_photo(chat_id=message.chat.id, photo=soln_photo)
 
-
 @dp.message_handler()
 async def starter(message:types.Message):
     await message.answer('Я вас не понял , для старта напишите команду "/start"')
