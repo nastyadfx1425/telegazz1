@@ -663,8 +663,8 @@ async def starter(message: types.Message):
 async def starter(message:types.Message):
     await message.answer('/5_1 - Художественная студия "Колибри"\n'
                          '/5_2 - Театр моды "Я Сама"\n'
-                         '/5_3 - Школа вокала Юлии Заборовой\n'
-                         '/5_4 - Кружок развития мелкой маторики "Солнышко"')
+                         '/5_3 - Кружок развития мелкой маторики "Солнышко"\n'
+                         '/5_4 - Школа вокала Юлии Заборовой')
 
 @ dp.message_handler(commands=['5_1'])
 async def starter(message: types.Message):
@@ -694,7 +694,7 @@ async def starter(message: types.Message):
         await message.answer('Наш адрес: ул. Ахметова 316/2\n'
                             'Подробности по телефону 89174654480')
 
-@ dp.message_handler(commands=['5_3'])
+@ dp.message_handler(commands=['5_4'])
 async def starter(message:types.Message):
     zaborova_photo = InputFile('zaborova.jpeg')
     await bot.send_photo(chat_id=message.chat.id, photo=zaborova_photo)
@@ -707,7 +707,7 @@ async def starter(message:types.Message):
                         'Мы не стоим на месте и постоянно участвуем в международных и всероссийских конкурсах, проводим отчётные концерты, участвуем в различных мероприятиях.\n\n '
                         'Запись по 📞 8-987-0400-937 \n')
 
-@ dp.message_handler(commands=['5_4'])
+@ dp.message_handler(commands=['5_3'])
 async def starter(message: types.Message):
         soln_photo = InputFile('soln.jpg')
         await bot.send_photo(chat_id=message.chat.id, photo=soln_photo)
