@@ -719,4 +719,3 @@ async def starter(message:types.Message):
 if __name__== "__main__":
     loop = asyncio.get_event_loop()
     executor.start_polling(dp)
-
